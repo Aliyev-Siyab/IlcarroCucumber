@@ -78,6 +78,4 @@ public class LetTheCarWorkSteps{
     public void car_adding_failed_Message_is_displayed(){
         new LetTheCarWorkPage(driver).isMessageDisplayed("JWT strings must contain exactly 2 period characters. Found: 0");
     }
-
-    // Then User closes the browser step is not needed because it's usually handled by the test framework
 }
