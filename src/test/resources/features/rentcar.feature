@@ -1,9 +1,14 @@
 Feature: Rent Out Car
 
+
+
   @rentoutthecar
   Scenario: Provide Car Details for Rental
     Given User launches Chrome browser
     When User opens ilCarro HomePage
+    And User clicks on the Login link
+    And User enters valid data
+    And User clicks on Yalla button
     And User clicks on the Let the car work link
     And User fills Location details
     And User fills Manufacturer

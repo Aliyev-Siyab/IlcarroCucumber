@@ -21,7 +21,7 @@ public class LetTheCarWorkSteps{
 
     @And("User fills Manufacturer")
     public void fills_Manufacturer(){
-        new LetTheCarWorkPage(driver).fillManufacturer("12345678");
+        new LetTheCarWorkPage(driver).fillManufacturer("123321123");
     }
 
     @And("User fills Model details")
@@ -51,7 +51,7 @@ public class LetTheCarWorkSteps{
 
     @And("User fills Car registration number")
     public void fills_Car_registration_number(){
-        new LetTheCarWorkPage(driver).fillCarRegistrationNumber("123456789");
+        new LetTheCarWorkPage(driver).fillCarRegistrationNumber("1233211234");
     }
 
     @And("User fills Price")
@@ -76,6 +76,6 @@ public class LetTheCarWorkSteps{
 
     @Then("Car adding failed Message is displayed")
     public void car_adding_failed_Message_is_displayed(){
-        new LetTheCarWorkPage(driver).isMessageDisplayed("JWT strings must contain exactly 2 period characters. Found: 0");
+        new LetTheCarWorkPage(driver).isMessageDisplayed("123321124 Ford-Focus added successful");
     }
 }
