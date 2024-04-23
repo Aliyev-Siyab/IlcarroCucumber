@@ -22,4 +22,4 @@ Feature: Rent Out Car
     And User fills About that car
     And User uploads photos of the car
     And User clicks on the Submit button
-    Then Car adding failed Message is displayed
+    Then Car adding  Message is displayed

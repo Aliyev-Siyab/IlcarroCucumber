@@ -74,7 +74,7 @@ public class LetTheCarWorkSteps{
         new LetTheCarWorkPage(driver).clickSubmitButton();
     }
 
-    @Then("Car adding failed Message is displayed")
+    @Then("Car adding  Message is displayed")
     public void car_adding_failed_Message_is_displayed(){
         new LetTheCarWorkPage(driver).isMessageDisplayed("123321124 Ford-Focus added successful");
     }
